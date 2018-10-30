@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MaxQuantParams xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" aifSilWeight="0" aifIsoWeight="0" aifTopx="0" aifCorrelation="0" aifCorrelationFirstPass="0" aifMinMass="0" aifMsmsTol="0" aifSecondPass="false" aifIterative="false" aifThresholdFdr="0" writeMsScansTable="true" writeMsmsScansTable="true" writePasefMsmsScansTable="true" writeAccumulatedPasefMsmsScansTable="true" writeMs3ScansTable="true" writeAllPeptidesTable="true" writeMzRangeTable="true" writeMzTab="false" disableMd5="false" connected="false" cacheBinInds="true" etdIncludeB="false" complementaryTmtCollapseNplets="true" connectedScore0="0.800000011920929" connectedScore1="0.800000011920929" connectedScore2="0.800000011920929">
+   <name>Session1</name>
+   <maxQuantVersion>1.6.0.16</maxQuantVersion>
+   <tempFolder />
+   <numThreads>4</numThreads>
+   <sendEmail>false</sendEmail>
+   <fixedCombinedFolder />
+   <ionCountIntensities>false</ionCountIntensities>
+   <verboseColumnHeaders>false</verboseColumnHeaders>
+   <fullMinMz>-1.7976931348623157E+308</fullMinMz>
+   <fullMaxMz>1.7976931348623157E+308</fullMaxMz>
+   <calcPeakProperties>true</calcPeakProperties>
+   <showCentroidMassDifferences>false</showCentroidMassDifferences>
+   <showIsotopeMassDifferences>false</showIsotopeMassDifferences>
+   <filePaths>
+      <string>C:\Users\G.Huffman\Documents\RAW_FILES\QC38b\180123AMRSAM03554_SC_QC38B.raw</string>
+   </filePaths>
+   <experiments>
+      <string />
+   </experiments>
+   <fractions>
+      <short>32767</short>
+   </fractions>
+   <ptms>
+      <boolean>false</boolean>
+   </ptms>
+   <paramGroupIndices>
+      <int>0</int>
+   </paramGroupIndices>
+   <parameterGroups>
+      <parameterGroup>
+         <maxCharge>7</maxCharge>
+         <minPeakLen>2</minPeakLen>
+         <useMs1Centroids>false</useMs1Centroids>
+         <useMs2Centroids>false</useMs2Centroids>
+         <cutPeaks>true</cutPeaks>
+         <gapScans>1</gapScans>
+         <minTime>NaN</minTime>
+         <maxTime>NaN</maxTime>
+         <matchType>MatchFromAndTo</matchType>
+         <centroidMatchTol>8</centroidMatchTol>
+         <centroidMatchTolInPpm>true</centroidMatchTolInPpm>
+         <centroidHalfWidth>35</centroidHalfWidth>
+         <centroidHalfWidthInPpm>true</centroidHalfWidthInPpm>
+         <valleyFactor>1.4</valleyFactor>
+         <isotopeValleyFactor>1.2</isotopeValleyFactor>
+         <advancedPeakSplitting>false</advancedPeakSplitting>
+         <intensityThreshold>0</intensityThreshold>
+         <msInstrument>0</msInstrument>
+         <intensityDetermination>0</intensityDetermination>
+         <labelMods>
+            <string />
+         </labelMods>
+         <reQuantify>false</reQuantify>
+         <lfqSkipNorm>false</lfqSkipNorm>
+         <lfqMinEdgesPerNode>3</lfqMinEdgesPerNode>
+         <lfqAvEdgesPerNode>6</lfqAvEdgesPerNode>
+         <lfqMaxFeatures>100000</lfqMaxFeatures>
+         <neucodeMaxPpm>0</neucodeMaxPpm>
+         <neucodeResolution>0</neucodeResolution>
+         <neucodeResolutionInMda>false</neucodeResolutionInMda>
+         <neucodeInSilicoLowRes>false</neucodeInSilicoLowRes>
+         <fastLfq>true</fastLfq>
+         <lfqRestrictFeatures>false</lfqRestrictFeatures>
+         <lfqMinRatioCount>2</lfqMinRatioCount>
+         <useNormRatiosForHybridLfq>true</useNormRatiosForHybridLfq>
+         <maxLabeledAa>0</maxLabeledAa>
+         <maxNmods>3</maxNmods>
+         <maxMissedCleavages>2</maxMissedCleavages>
+         <multiplicity>1</multiplicity>
+         <enzymes>
+            <string>Trypsin/P</string>
+         </enzymes>
+         <enzymesFirstSearch />
+         <useEnzymeFirstSearch>false</useEnzymeFirstSearch>
+         <useVariableModificationsFirstSearch>false</useVariableModificationsFirstSearch>
+         <variableModifications>
+            <string>Oxidation (M)</string>
+            <string>Acetyl (Protein N-term)</string>
+         </variableModifications>
+         <useMultiModification>false</useMultiModification>
+         <multiModifications />
+         <isobaricLabels>
+            <string>TMT10plex-Nter126C</string>
+            <string>TMT10plex-Nter127N</string>
+            <string>TMT10plex-Nter127C</string>
+            <string>TMT10plex-Nter128N</string>
+            <string>TMT10plex-Nter128C</string>
+            <string>TMT10plex-Nter129N</string>
+            <string>TMT10plex-Nter129C</string>
+            <string>TMT10plex-Nter130N</string>
+            <string>TMT10plex-Nter130C</string>
+            <string>TMT10plex-Nter131N</string>
+            <string>TMT10plex-Lys126C</string>
+            <string>TMT10plex-Lys127N</string>
+            <string>TMT10plex-Lys127C</string>
+            <string>TMT10plex-Lys128N</string>
+            <string>TMT10plex-Lys128C</string>
+            <string>TMT10plex-Lys129N</string>
+            <string>TMT10plex-Lys129C</string>
+            <string>TMT10plex-Lys130N</string>
+            <string>TMT10plex-Lys130C</string>
+            <string>TMT10plex-Lys131N</string>
+         </isobaricLabels>
+         <neucodeLabels />
+         <variableModificationsFirstSearch />
+         <hasAdditionalVariableModifications>false</hasAdditionalVariableModifications>
+         <additionalVariableModifications />
+         <additionalVariableModificationProteins />
+         <doMassFiltering>true</doMassFiltering>
+         <firstSearchTol>20</firstSearchTol>
+         <mainSearchTol>4.5</mainSearchTol>
+         <searchTolInPpm>true</searchTolInPpm>
+         <isotopeMatchTol>2</isotopeMatchTol>
+         <isotopeMatchTolInPpm>true</isotopeMatchTolInPpm>
+         <isotopeTimeCorrelation>0.6</isotopeTimeCorrelation>
+         <theorIsotopeCorrelation>0.6</theorIsotopeCorrelation>
+         <recalibrationInPpm>true</recalibrationInPpm>
+         <intensityDependentCalibration>false</intensityDependentCalibration>
+         <minScoreForCalibration>70</minScoreForCalibration>
+         <matchLibraryFile>false</matchLibraryFile>
+         <libraryFile />
+         <matchLibraryMassTolPpm>0</matchLibraryMassTolPpm>
+         <matchLibraryTimeTolMin>0</matchLibraryTimeTolMin>
+         <matchLabelTimeTolMin>0</matchLabelTimeTolMin>
+         <reporterMassTolerance>0.01</reporterMassTolerance>
+         <reporterPif>0</reporterPif>
+         <filterPif>false</filterPif>
+         <reporterFraction>0</reporterFraction>
+         <reporterBasePeakRatio>0</reporterBasePeakRatio>
+         <timsHalfWidth>0</timsHalfWidth>
+         <timsStep>0</timsStep>
+         <timsResolution>0</timsResolution>
+         <timsMinMsmsIntensity>0</timsMinMsmsIntensity>
+         <timsRemovePrecursor>true</timsRemovePrecursor>
+         <timsIsobaricLabels>false</timsIsobaricLabels>
+         <timsCollapseMsms>true</timsCollapseMsms>
+         <crosslinkSearch>false</crosslinkSearch>
+         <crosslinkOnlyIntraProtein>false</crosslinkOnlyIntraProtein>
+         <crosslinkMaxMonoUnsaturated>0</crosslinkMaxMonoUnsaturated>
+         <crosslinkMaxMonoSaturated>0</crosslinkMaxMonoSaturated>
+         <crosslinkMaxDiUnsaturated>0</crosslinkMaxDiUnsaturated>
+         <crosslinkMaxDiSaturated>0</crosslinkMaxDiSaturated>
+         <crosslinkUseSeparateFasta>false</crosslinkUseSeparateFasta>
+         <crosslinkFastaFiles />
+         <crosslinkMode>PeptidesWithCleavedLinker</crosslinkMode>
+         <lcmsRunType>Reporter ion MS2</lcmsRunType>
+         <lfqMode>0</lfqMode>
+         <enzymeMode>0</enzymeMode>
+         <complementaryReporterType>0</complementaryReporterType>
+         <neucodeIntensityMode>0</neucodeIntensityMode>
+         <enzymeModeFirstSearch>0</enzymeModeFirstSearch>
+      </parameterGroup>
+   </parameterGroups>
+   <fixedModifications />
+   <fastaFiles>
+      <string>C:\Users\G.Huffman\Documents\RAW_FILES\SwissProt_human_09042017.fasta</string>
+   </fastaFiles>
+   <fastaFilesProteogenomics />
+   <fastaFilesFirstSearch />
+   <fixedSearchFolder />
+   <andromedaCacheSize>350000</andromedaCacheSize>
+   <advancedRatios>true</advancedRatios>
+   <pvalThres>0.005</pvalThres>
+   <neucodeRatioBasedQuantification>true</neucodeRatioBasedQuantification>
+   <neucodeStabilizeLargeRatios>true</neucodeStabilizeLargeRatios>
+   <rtShift>false</rtShift>
+   <separateLfq>false</separateLfq>
+   <lfqStabilizeLargeRatios>true</lfqStabilizeLargeRatios>
+   <lfqRequireMsms>true</lfqRequireMsms>
+   <decoyMode>revert</decoyMode>
+   <boxCarMode>all</boxCarMode>
+   <includeContaminants>false</includeContaminants>
+   <maxPeptideMass>4600</maxPeptideMass>
+   <epsilonMutationScore>true</epsilonMutationScore>
+   <mutatedPeptidesSeparately>true</mutatedPeptidesSeparately>
+   <proteogenomicPeptidesSeparately>true</proteogenomicPeptidesSeparately>
+   <minDeltaScoreUnmodifiedPeptides>0</minDeltaScoreUnmodifiedPeptides>
+   <minDeltaScoreModifiedPeptides>6</minDeltaScoreModifiedPeptides>
+   <minScoreUnmodifiedPeptides>0</minScoreUnmodifiedPeptides>
+   <minScoreModifiedPeptides>40</minScoreModifiedPeptides>
+   <secondPeptide>false</secondPeptide>
+   <matchBetweenRuns>false</matchBetweenRuns>
+   <matchUnidentifiedFeatures>false</matchUnidentifiedFeatures>
+   <matchBetweenRunsFdr>false</matchBetweenRunsFdr>
+   <dependentPeptides>false</dependentPeptides>
+   <dependentPeptideFdr>0</dependentPeptideFdr>
+   <dependentPeptideMassBin>0</dependentPeptideMassBin>
+   <msmsConnection>false</msmsConnection>
+   <ibaq>false</ibaq>
+   <top3>false</top3>
+   <independentEnzymes>false</independentEnzymes>
+   <useDeltaScore>false</useDeltaScore>
+   <splitProteinGroupsByTaxonomy>false</splitProteinGroupsByTaxonomy>
+   <taxonomyLevel>Species</taxonomyLevel>
+   <avalon>false</avalon>
+   <nModColumns>3</nModColumns>
+   <ibaqLogFit>false</ibaqLogFit>
+   <razorProteinFdr>true</razorProteinFdr>
+   <deNovoSequencing>false</deNovoSequencing>
+   <deNovoVarMods>true</deNovoVarMods>
+   <massDifferenceSearch>false</massDifferenceSearch>
+   <minPepLen>6</minPepLen>
+   <peptideFdr>1</peptideFdr>
+   <proteinFdr>1</proteinFdr>
+   <siteFdr>1</siteFdr>
+   <lfqSitePeptide>false</lfqSitePeptide>
+   <minPeptideLengthForUnspecificSearch>8</minPeptideLengthForUnspecificSearch>
+   <maxPeptideLengthForUnspecificSearch>25</maxPeptideLengthForUnspecificSearch>
+   <useNormRatiosForOccupancy>true</useNormRatiosForOccupancy>
+   <minPeptides>1</minPeptides>
+   <minRazorPeptides>1</minRazorPeptides>
+   <minUniquePeptides>0</minUniquePeptides>
+   <useCounterparts>false</useCounterparts>
+   <advancedSiteIntensities>true</advancedSiteIntensities>
+   <customProteinQuantification>false</customProteinQuantification>
+   <customProteinQuantificationFile />
+   <minRatioCount>2</minRatioCount>
+   <restrictProteinQuantification>true</restrictProteinQuantification>
+   <restrictMods>
+      <string>Oxidation (M)</string>
+      <string>Acetyl (Protein N-term)</string>
+   </restrictMods>
+   <matchingTimeWindow>0</matchingTimeWindow>
+   <alignmentTimeWindow>0</alignmentTimeWindow>
+   <numberOfCandidatesMultiplexedMsms>25</numberOfCandidatesMultiplexedMsms>
+   <numberOfCandidatesMsms>15</numberOfCandidatesMsms>
+   <massDifferenceMods />
+   <mainSearchMaxCombinations>200</mainSearchMaxCombinations>
+   <stackPeaks>false</stackPeaks>
+   <ms2PrecursorShift>0</ms2PrecursorShift>
+   <complementaryIonPpm>20</complementaryIonPpm>
+   <variationParseRule />
+   <msmsParamsArray>
+      <msmsParams Name="FTMS" MatchToleranceInPpm="true" DeisotopeToleranceInPpm="true" DeNovoToleranceInPpm="true" Deisotope="true" Topx="12" TopxInterval="100" HigherCharges="true" IncludeWater="true" IncludeAmmonia="true" DependentLosses="true" Recalibration="false">
+         <MatchTolerance>20</MatchTolerance>
+         <DeisotopeTolerance>7</DeisotopeTolerance>
+         <DeNovoTolerance>10</DeNovoTolerance>
+      </msmsParams>
+      <msmsParams Name="ITMS" MatchToleranceInPpm="false" DeisotopeToleranceInPpm="false" DeNovoToleranceInPpm="false" Deisotope="false" Topx="8" TopxInterval="100" HigherCharges="true" IncludeWater="true" IncludeAmmonia="true" DependentLosses="true" Recalibration="false">
+         <MatchTolerance>1.5</MatchTolerance>
+         <DeisotopeTolerance>0.15</DeisotopeTolerance>
+         <DeNovoTolerance>0.25</DeNovoTolerance>
+      </msmsParams>
+      <msmsParams Name="TOF" MatchToleranceInPpm="true" DeisotopeToleranceInPpm="false" DeNovoToleranceInPpm="false" Deisotope="true" Topx="10" TopxInterval="100" HigherCharges="true" IncludeWater="true" IncludeAmmonia="true" DependentLosses="true" Recalibration="false">
+         <MatchTolerance>40</MatchTolerance>
+         <DeisotopeTolerance>0.01</DeisotopeTolerance>
+         <DeNovoTolerance>0.02</DeNovoTolerance>
+      </msmsParams>
+      <msmsParams Name="Unknown" MatchToleranceInPpm="false" DeisotopeToleranceInPpm="false" DeNovoToleranceInPpm="false" Deisotope="false" Topx="8" TopxInterval="100" HigherCharges="true" IncludeWater="true" IncludeAmmonia="true" DependentLosses="true" Recalibration="false">
+         <MatchTolerance>0.5</MatchTolerance>
+         <DeisotopeTolerance>0.15</DeisotopeTolerance>
+         <DeNovoTolerance>0.25</DeNovoTolerance>
+      </msmsParams>
+   </msmsParamsArray>
+   <compositionPrediction>0</compositionPrediction>
+   <quantMode>1</quantMode>
+   <variationMode>none</variationMode>
+</MaxQuantParams>
